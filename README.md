@@ -18,7 +18,7 @@ alih-alih menggunakan tipe data bool
 bool x = true;
 ```
 
-di library ini untuk menyimpan nilai kondisi menggunakan tipe data char
+di library ini untuk menyimpan nilai kondisi menggunakan tipe data char dengan bantuan bitwise operation :
 
 ```c++
 char x = 0b00000000;
