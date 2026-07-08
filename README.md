@@ -14,14 +14,19 @@ yang akan membuat pemakain memory akan lebih kecil
 
 alih-alih menggunakan tipe data bool
 
-``` bool x = true; ```
+``` c++
+bool x = true;
+```
 
 di library ini untuk menyimpan nilai kondisi menggunakan tipe data char
 
 ``` c++
-char x = 0b00000000
-karena char menggunakan 1 byte dengan kata lain 8 bit, dengan begitu char dapat menyimpan 8 nilai kondisi '0' dan '1'
+char x = 0b00000000;
 ```
+
+karena char menggunakan 1 byte dengan kata lain 8 bit, dengan begitu char dapat menyimpan 8 nilai kondisi '0' dan '1'
+
+```c++
 sebagai contoh jika menggunakan bool :
 
 > bool a = false;
@@ -32,12 +37,14 @@ sebagai contoh jika menggunakan bool :
 > bool f = true;
 > bool g = false;
 > bool h = true;
+```
 
 jika seperti ini, program akan memakai 8 byte memory 
 namun jika disimpan didalam char seperti ini :
 
-> char a = 0b01010101;
-
+``` c++
+char a = 0b01010101;
+```
 program hanya akan memakai 1 byte memory tapi tetap menyimpan 8 nilai kondisi
 
 ## cara menggunakan 
