@@ -18,9 +18,10 @@ alih-alih menggunakan tipe data bool
 
 di library ini untuk menyimpan nilai kondisi menggunakan tipe data char
 
-``` char x = 0b00000000 ```
+``` c++
+char x = 0b00000000
 karena char menggunakan 1 byte dengan kata lain 8 bit, dengan begitu char dapat menyimpan 8 nilai kondisi '0' dan '1'
-
+```
 sebagai contoh jika menggunakan bool :
 
 > bool a = false;
