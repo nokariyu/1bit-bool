@@ -14,13 +14,13 @@ yang akan membuat pemakain memory akan lebih kecil
 
 alih-alih menggunakan tipe data bool
 
-``` c++
+```c++
 bool x = true;
 ```
 
 di library ini untuk menyimpan nilai kondisi menggunakan tipe data char
 
-``` c++
+```c++
 char x = 0b00000000;
 ```
 
