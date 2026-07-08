@@ -13,4 +13,4 @@ yang akan membuat pemakain memory akan lebih kecil
 ## cara kerja
 
 alih-alih menggunakan tipe data bool
-''' bool x = false; '''
+``` bool x = true; ```
