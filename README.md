@@ -11,3 +11,6 @@ dengan library ini, data '0' dan '1' dapat disimpan dalam 1 bit memory
 yang akan membuat pemakain memory akan lebih kecil
 
 ## cara kerja
+
+alih-alih menggunakan tipe data bool
+''' bool x = false; '''
