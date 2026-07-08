@@ -26,9 +26,8 @@ char x = 0b00000000;
 
 karena char menggunakan 1 byte dengan kata lain 8 bit, dengan begitu char dapat menyimpan 8 nilai kondisi '0' dan '1'
 
-```c++
 sebagai contoh jika menggunakan bool :
-
+```c++
 bool a = false;
 bool b = true;
 bool c = false;
