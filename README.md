@@ -29,14 +29,14 @@ karena char menggunakan 1 byte dengan kata lain 8 bit, dengan begitu char dapat 
 ```c++
 sebagai contoh jika menggunakan bool :
 
-> bool a = false;
-> bool b = true;
-> bool c = false;
-> bool d = true;
-> bool e = false;
-> bool f = true;
-> bool g = false;
-> bool h = true;
+bool a = false;
+bool b = true;
+bool c = false;
+bool d = true;
+bool e = false;
+bool f = true;
+bool g = false;
+bool h = true;
 ```
 
 jika seperti ini, program akan memakai 8 byte memory 
