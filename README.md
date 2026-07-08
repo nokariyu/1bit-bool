@@ -13,4 +13,31 @@ yang akan membuat pemakain memory akan lebih kecil
 ## cara kerja
 
 alih-alih menggunakan tipe data bool
+
 ``` bool x = true; ```
+
+di library ini untuk menyimpan nilai kondisi menggunakan tipe data char
+
+``` char x = 0b00000000 ```
+karena char menggunakan 1 byte dengan kata lain 8 bit, dengan begitu char dapat menyimpan 8 nilai kondisi '0' dan '1'
+
+sebagai contoh jika menggunakan bool :
+
+> bool a = false;
+> bool b = true;
+> bool c = false;
+> bool d = true;
+> bool e = false;
+> bool f = true;
+> bool g = false;
+> bool h = true;
+
+jika seperti ini, program akan memakai 8 byte memory 
+namun jika disimpan didalam char seperti ini :
+
+> char a = 0b01010101;
+
+program hanya akan memakai 1 byte memory tapi tetap menyimpan 8 nilai kondisi
+
+## cara menggunakan 
+
